@@ -1,0 +1,33 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+/* COLORS */
+/* #F06A3C */
+
+*,*::after,*::before {
+  padding: 0; 
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #482B28;
+  font-family: "Play", sans-serif;
+}
+
+img {
+  border: 4px solid black;
+}
+
+.hidden {
+  display: none;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+}
