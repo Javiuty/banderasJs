@@ -1,4 +1,19 @@
 import flags from './data/flags.json'
+
+// DOM
+const $helpModal = document.querySelector('#help-modal')
+const $helpBtn = document.querySelector('#help-btn')
+const $closeBtn = document.querySelector('#close-btn')
+
+// Event Listeners
+$helpBtn.addEventListener('click', () => {
+  $helpModal.showModal()
+})
+
+$closeBtn.addEventListener('click', () => {
+  $helpModal.close()
+})
+
 /* 
 const img = document.createElement('img')
 const p = document.createElement('p')
